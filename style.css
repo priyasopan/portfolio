@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top_cont_outer {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background: #000;
+
+}
+section {
+
+    display: block;
+
+}
+.card.hovercard {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #0DBFB6;
+    margin: 0;
+}
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard .cardheader {
+    background-size: cover;
+    height: 130px;
+    background: #0DBFB6;
+}
+.card.hovercard .avatar {
+    position: relative;
+    top: -80px;
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+.card.hovercard .avatar img {
+    width: 250px;
+    height: 100%;
+    max-width: 250px;
+    margin-left: -9px;
+    object-fit: cover;
+}
+.card.hovercard .info {
+    padding: 0 8px 22px;
+    top: -50px;
+    position: relative;
+}
+.card.hovercard .info .title {
+    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 1;
+    color: #ffffff;
+    vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
+}
+.card.hovercard .info .title a {
+    color: #ffffff;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.77);
+    text-overflow: ellipsis;
+}
+.card.hovercard .info .desc b {
+    color: #000;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.77);
+    text-overflow: ellipsis;
+}
+p {
+    line-height: 25px;
+    margin: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.77);
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 70px;
+}
+
+.social_links li a {
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #00283a;
+}
